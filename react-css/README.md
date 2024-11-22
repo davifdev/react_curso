@@ -15,8 +15,6 @@ Currently, two official plugins are available:
 - Utilizamos o arquivo index.css para isso;
 - Ele está na pasta src;
 
----
-
 # CSS de Componente
 
 - O CSS de componente é utilizado para um componente especifico;
@@ -24,15 +22,11 @@ Currently, two official plugins are available:
 - Note que este método não é scoped, ou seja o CSS vaza para outros componentes se houver uma regra de colisão;
 - O React já cria um exemplo desta técnica com o App.css/js
 
----
-
 # Inline style
 
 - O inline style do React é igual o do CSS;
 - Por meio do atributo style conseguimos aplicar regras diretamente em um elemento;
 - Devemos optar por outras maneiras de CSS, o inline pode dificultar a manutenção ou deixar o código imprevisivel em algumas situações;
-
----
 
 # Inline style Dinâmico
 
@@ -46,8 +40,6 @@ Currently, two official plugins are available:
 - Também utilizaremos o if ternário;
 - Essa abordagem é mais interessante que o CSS inline;
 - Pois as classes estarão isoladas no arquivo de CSS, resolvendo o problema de organização de código;
-
----
 
 # CSS Modules
 
