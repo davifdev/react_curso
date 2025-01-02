@@ -1,17 +1,16 @@
-import FirstComponent from "./components/FirstComponents";
-import TemplateExpression from "./components/TemplateExpressions";
-import { Greeting } from "./components/Greeting";
-import Event from "./components/Event";
-
 import "./App.css";
+import { Events } from "./components/Events";
+
+import { FirstComponent } from "./components/FirstComponent";
+import { TemplateExpressions } from "./components/TemplateExpressions";
 
 function App() {
   return (
     <>
+      <h2>Hello World!</h2>
       <FirstComponent />
-      <TemplateExpression />
-      <Greeting />
-      <Event />
+      <TemplateExpressions />
+      <Events />
     </>
   );
 }

@@ -1,13 +1,9 @@
-// import { Greeting } from "./Greeting";
+const name = "Davi Fernandes";
 
-export default function TemplateExpressions() {
-  const name = "Davi Fernandes";
-
-  return (
-    <>
-      <h2>Olá: {name} Seja Bem Vindo!</h2>
-      {/* <Greeting /> */}
-      <hr />
-    </>
-  );
+export function TemplateExpressions() {
+    return(
+        <>
+        <p>Meu nome é: {name}</p>
+        </>
+    );
 }
