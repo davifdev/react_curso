@@ -1,10 +1,9 @@
-const Greeting = () => {
+import styles from "./Greeting.module.css";
+
+export function Greeting() {
   return (
     <>
-      <h2 className="title">CSS No Scoped</h2>
-      <hr />
+      <h2 className={styles.titulo}>Olá, Mundo! Seja bem-vindo</h2>
     </>
   );
-};
-
-export default Greeting;
+}
