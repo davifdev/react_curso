@@ -5,6 +5,7 @@ export function Events() {
     console.log(e.target);
   };
 
+  // Sudações
   const greet = () => {
     if (greting) {
       return <p>Olá, seja bem-vindo</p>;
@@ -15,6 +16,7 @@ export function Events() {
 
   return (
     <>
+      {/* Evento de Click */}
       <button onClick={handleClick}>Clique Aqui!</button>
       <button onClick={(e) => console.log(e.target)}>Enviar</button>
       {greting ? greet() : greet()}
