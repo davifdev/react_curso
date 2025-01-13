@@ -27,6 +27,7 @@ export const HookUseReducer = () => {
       <h1>Hook useReducer</h1>
       <h3>{state}</h3>
       <button onClick={handleClick}>Clique</button>
+      <hr />
     </>
   );
 };
