@@ -4,9 +4,10 @@ import { HookUseState } from "./components/HookUseState";
 import { HookUseContextProvider } from "./components/HookUseContext";
 
 import { useState } from "react";
+import { HookUseRef } from "./components/HookUseRef";
 function App() {
-  const [user, setUser] = useState(false);
-  
+  const [user] = useState(false);
+
   return (
     <HookUseContextProvider value={{ user }}>
       <HookUseState />
@@ -16,6 +17,8 @@ function App() {
       <h1>Hook useContext</h1>
       <h3>Usuário está logado ?</h3>
       {user ? <p>Usuário Logado</p> : <p>Usuário Deslogado</p>}
+      <hr />
+      <HookUseRef />
     </HookUseContextProvider>
   );
 }
