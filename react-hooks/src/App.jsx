@@ -5,6 +5,7 @@ import { HookUseContextProvider } from "./components/HookUseContext";
 
 import { useState } from "react";
 import { HookUseRef } from "./components/HookUseRef";
+import { HookUseCallbackEMemo } from "./components/HookUseCallbackEMemo";
 function App() {
   const [user] = useState(false);
 
@@ -19,6 +20,7 @@ function App() {
       {user ? <p>Usuário Logado</p> : <p>Usuário Deslogado</p>}
       <hr />
       <HookUseRef />
+      <HookUseCallbackEMemo />
     </HookUseContextProvider>
   );
 }

@@ -10,3 +10,18 @@
 hr {
   margin: 30px 0;
 }
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+input {
+  background: transparent;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  outline: none;
+}
+
